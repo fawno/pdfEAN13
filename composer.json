@@ -1,0 +1,38 @@
+{
+  "name": "fawno/ean13",
+  "description": "Generate EAN13 codes",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fawno",
+      "homepage": "https://github.com/fawno/ean13/graphs/contributors"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/fawno/ean13/issues",
+    "source": "https://github.com/fawno/ean13"
+  },
+  "require": {
+    "php": ">=7.4.0",
+    "fawno/fpdf": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fawno\\EAN13\\": "src"
+    }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "Fawno\\EAN13\\Tests\\": "tests/"
+      }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "scripts": {
+      "test": "phpunit"
+  },
+  "scripts-descriptions": {
+      "test": "Run PHPUnit tests"
+  }
+}
