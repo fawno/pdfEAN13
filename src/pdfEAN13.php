@@ -1,7 +1,7 @@
 <?php
 	declare(strict_types=1);
 
-	namespace Fawno\pdfEAN13;
+	namespace Fawno\EAN13;
 
 	use Fawno\FPDF\FawnoFPDF;
 

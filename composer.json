@@ -1,5 +1,5 @@
 {
-  "name": "fawno/pdfEAN13",
+  "name": "fawno/ean13",
   "description": "Generate EAN13 codes",
   "license": "MIT",
   "authors": [
@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Fawno\\pdfEAN13\\": "src"
+      "Fawno\\EAN13\\": "src"
     }
   },
   "autoload-dev": {
       "psr-4": {
-          "Fawno\\pdfEAN13\\Tests\\": "tests/"
+          "Fawno\\EAN13\\Tests\\": "tests/"
       }
   },
   "require-dev": {
